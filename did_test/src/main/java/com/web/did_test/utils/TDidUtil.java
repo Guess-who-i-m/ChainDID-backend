@@ -16,8 +16,7 @@ public class TDidUtil {
 
     // 设置secretID和secretKey
     private static final String TDID_ENDPOINT = "tdid.tencentcloudapi.com";
-    private static final String TDID_ACCESS_ID = "";
-    private static final String TDID_SECRET_KEY = "";
+    
     private static final String TDID_REGION = "ap-beijing";
 
     // 用法输入dapId和希望存入DID文档中的属性键值对json字符串，得到DID
