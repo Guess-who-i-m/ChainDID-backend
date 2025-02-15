@@ -14,7 +14,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class TDidUtil {
 
-    // 设置secretID和secretKey
     private static final String TDID_ENDPOINT = "tdid.tencentcloudapi.com";
     
     private static final String TDID_REGION = "ap-beijing";
