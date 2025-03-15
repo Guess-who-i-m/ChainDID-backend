@@ -86,9 +86,6 @@ class DidTestApplicationTests {
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-
-
-
     }
 
 
@@ -186,7 +183,7 @@ class DidTestApplicationTests {
 
             String [] type = {"VerifiableCredential"};
 
-            message = TDidUtil.issueCredential(222223L,1000L, "did:tdid:w1:0x76753955002ceb77dad212695ab67c683b5d7e33", "2025-02-16 12:00:00", claimJson, type);
+            message = TDidUtil.issueCredential(222223L,1000L, "did:tdid:w1:0x76753955002ceb77dad212695ab67c683b5d7e33", "2025-02-18 12:00:00", claimJson, type);
             System.out.println("原始凭证：" + message);
 
         } catch (JsonProcessingException e) {
@@ -234,7 +231,7 @@ class DidTestApplicationTests {
 
             String [] type = {"OperateCredential"};
 
-            operateCredential = TDidUtil.issueCredential(222223L,1L, issuerDid, "2025-02-16 12:00:00", claimJson, type);
+            operateCredential = TDidUtil.issueCredential(222223L,1L, issuerDid, "2025-02-18 12:00:00", claimJson, type);
             System.out.println("操作凭证：" + operateCredential);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
@@ -245,6 +242,18 @@ class DidTestApplicationTests {
 
         JsonNode result = TDidUtil.updateCredentialState(222223L, operateCredentialStr);
         System.out.println(result);
+
+
+
+        if (result.has("result")) {
+            if (result.get("result").asBoolean()) {
+                System.out.println("上链成功");
+            }
+        } else {
+            if (result.has("error")) {
+                System.out.println("上链失败");
+            }
+        }
 
         // 第四步，进行线上核验
         JsonNode judge = TDidUtil.verifyCredential(222223L, 1L, credentialDataStr);

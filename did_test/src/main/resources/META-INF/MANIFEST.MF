@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Main-Class: com.web.did_test.DidTestApplication
+Class-Path: aliyun-java-sdk-ram-3.1.0.jar jakarta.activation-1.2.2.jar l
+ og4j-to-slf4j-2.24.3.jar jackson-core-2.18.2.jar lombok-1.18.36.jar jac
+ kson-annotations-2.18.2.jar spring-boot-starter-web-3.4.2.jar jaxb-api-
+ 2.3.1.jar spring-boot-starter-jdbc-3.4.2.jar spring-aop-6.2.2.jar commo
+ ns-codec-1.17.2.jar jackson-module-parameter-names-2.18.2.jar jaxb-runt
+ ime-2.3.3.jar tomcat-embed-websocket-10.1.34.jar spring-web-6.2.2.jar h
+ ttpcore-4.4.16.jar okio-1.15.0.jar mybatis-plus-3.5.10.1.jar mybatis-pl
+ us-core-3.5.10.1.jar aliyun-java-sdk-kms-2.11.0.jar activation-1.1.1.ja
+ r micrometer-commons-1.14.3.jar commons-logging-1.2.jar logging-interce
+ ptor-3.12.13.jar spring-jcl-6.2.2.jar mybatis-spring-3.0.4.jar gson-2.1
+ 1.0.jar tomcat-embed-core-10.1.34.jar jettison-1.5.4.jar log4j-api-2.24
+ .3.jar opentracing-noop-0.33.0.jar spring-boot-3.4.2.jar spring-boot-st
+ arter-json-3.4.2.jar mysql-connector-j-9.1.0.jar tomcat-embed-el-10.1.3
+ 4.jar httpclient-4.5.13.jar spring-boot-starter-tomcat-3.4.2.jar opentr
+ acing-util-0.33.0.jar javax.activation-api-1.2.0.jar jackson-datatype-j
+ sr310-2.18.2.jar mybatis-plus-spring-boot-autoconfigure-3.5.10.1.jar mi
+ crometer-observation-1.14.3.jar spring-boot-autoconfigure-3.4.2.jar spr
+ ing-boot-starter-logging-3.4.2.jar jackson-datatype-jdk8-2.18.2.jar jak
+ arta.annotation-api-2.1.1.jar jakarta.xml.bind-api-4.0.2.jar spring-tx-
+ 6.2.2.jar txw2-4.0.5.jar tencentcloud-sdk-java-common-3.1.1007.jar myba
+ tis-plus-extension-3.5.10.1.jar HikariCP-5.1.0.jar opentracing-api-0.33
+ .0.jar mybatis-plus-spring-boot3-starter-3.5.10.1.jar aliyun-java-sdk-c
+ ore-4.5.10.jar snakeyaml-2.3.jar org.jacoco.agent-0.8.5-runtime.jar jak
+ arta.activation-api-2.1.3.jar okhttp-3.12.13.jar spring-boot-starter-3.
+ 4.2.jar spring-expression-6.2.2.jar error_prone_annotations-2.27.0.jar 
+ mybatis-3.5.19.jar logback-classic-1.5.16.jar mybatis-plus-annotation-3
+ .5.10.1.jar istack-commons-runtime-4.1.2.jar spring-webmvc-6.2.2.jar in
+ i4j-0.5.4.jar spring-jdbc-6.2.2.jar jul-to-slf4j-2.0.16.jar aliyun-sdk-
+ oss-3.17.4.jar spring-core-6.2.2.jar logback-core-1.5.16.jar spring-bea
+ ns-6.2.2.jar jackson-databind-2.15.2.jar mybatis-plus-spring-3.5.10.1.j
+ ar jdom2-2.0.6.1.jar spring-context-6.2.2.jar slf4j-api-2.0.16.jar tenc
+ entcloud-sdk-java-tdid-3.1.1007.jar
+
